@@ -19,6 +19,11 @@
     "@angular/platform-browser": "~12.2.16",
     "@angular/platform-browser-dynamic": "~12.2.16",
     "@angular/router": "~12.2.16",
+    "@fortawesome/angular-fontawesome": "~0.10.2",
+    "@fortawesome/fontawesome-svg-core": "~1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "rxjs": "~6.6.0",
     "zone.js": "~0.11.3"
   },

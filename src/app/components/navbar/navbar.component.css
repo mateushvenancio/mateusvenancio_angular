@@ -2,3 +2,23 @@
   height: 100vh;
   width: 85px;
 }
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.social-icone {
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.divisoria {
+  height: 1px;
+  margin-top: 30px;
+  background-color: white;
+  width: 60px;
+}
