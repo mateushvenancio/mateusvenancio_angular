@@ -1,6 +1,9 @@
 .barra {
   height: 100vh;
   width: 85px;
+  border-left: 1px solid #00de7a;
+  position: fixed;
+  float: right;
 }
 
 .coluna {
@@ -11,7 +14,7 @@
 }
 
 .social-icone {
-  color: white;
+  color: black;
   font-size: 25px;
   margin-top: 30px;
 }

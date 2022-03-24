@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="linha">
+    <div class="coluna">
+      <span class="titulo">{{ projeto.nome }}</span>
+      <a href="#">
+        <div class="centralizar">
+          <fa-icon [icon]="faGithub" class="tamanho"></fa-icon>
+          <span class="github">github.com/mateushvenancio/pokedex</span>
+        </div>
+      </a>
+      <span class="descricao">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat
+      </span>
+      <hr />
+      <div class="data">
+        {{ projeto.data | date: "dd/MM/yyyy" }}
+        •
+        <span *ngFor="let tag of projeto.tags" class="tag">
+          {{ tag }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

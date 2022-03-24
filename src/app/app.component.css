@@ -3,3 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.expandir {
+  margin-left: 300px;
+  margin-right: 85px;
+  flex: 1;
+}
